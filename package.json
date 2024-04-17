@@ -1,0 +1,30 @@
+{
+  "name": "workmc-website",
+  "version": "1.0.0",
+  "description": "Website for WorkMC",
+  "main": "dist/src/main.js",
+  "scripts": {
+    "build": "npx swc ./src -d dist/",
+    "watch": "npx swc ./src -d dist/ -w",
+    "test": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rentless-Garage/workmc-website.git"
+  },
+  "author": "synicalmx",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rentless-Garage/workmc-website/issues"
+  },
+  "homepage": "https://github.com/Rentless-Garage/workmc-website#readme",
+  "devDependencies": {
+    "@swc/cli": "^0.3.12",
+    "@swc/core": "^1.4.15",
+    "@types/express": "^4.17.21",
+    "chokidar": "^3.6.0"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
