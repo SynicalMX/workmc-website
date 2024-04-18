@@ -1,6 +1,6 @@
 <script>
-	import { Badge } from "spaper";
-	import "../styles.css";
+	import { Badge } from 'spaper';
+	import '../styles.css';
 </script>
 
 <h4>
@@ -9,6 +9,6 @@
 </h4>
 
 <h2 id="links">
-	play.workmc.net<br>
+	play.workmc.net<br />
 	map.workmc.net
 </h2>
